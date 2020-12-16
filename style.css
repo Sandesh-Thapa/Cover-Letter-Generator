@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+  
+  h1{
+    text-align: center;
+  }
+
+  p{
+      text-align: center;
+  }
+
+  section {
+    height: 100vh;
+    padding: 10px;
+  }
+  
+  span {
+      text-align: center;
+    color: blue;
+    cursor: pointer;
+  }
+  
+ input[type=submit] {
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    float: right;
+    background: #4CAF50;
+    color: white;
+    
+  }
+  
+  .form {
+    height: 100%;
+    padding: 20px;
+  }
+  
+  .inputbox {
+    margin-top: 15px;
+  }
+  
+  .box {
+    width: 100%;
+    padding: 12px;
+  }
+  
+  a {
+    text-decoration: none;
+    padding: 0 20%;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    section {
+      padding: 20px 20%;
+    }
+    a {
+      color: blue;
+      padding: 0 40%;
+    
+    
+    }
+  }
+  /*# sourceMappingURL=style.css.map */
