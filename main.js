@@ -1,4 +1,7 @@
 window.addEventListener('load', () => {
+    const currentDate = new Date().toJSON().slice(0,10).replace(/-/g,'/');
+    document.getElementById('date').innerText = currentDate;
+    
     const params = (new URL(document.location)).searchParams;
     const name = params.get('name');
     const email = params.get('email');
